@@ -1,0 +1,23 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+%parent{
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -7px;
+}
+%child{
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: normal;
+  display: inline-block;
+}
+%align-middle{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+@import "gallery";
